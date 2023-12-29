@@ -170,7 +170,7 @@ for leaf in root.leaves:
         name = sanear(f"{menu.orden}. {menu.nombre}")
         path = os.path.join(path, name)
     codigo_programa = sanear(menus_por_codigo[leaf.name].programa)
-    path = path[:-1] + f" ({codigo_programa}).md"
+    path = path + f" ({codigo_programa}).md"
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(os.path.join(DEST_FOLDER, path), "a", encoding='utf-8') as f:
         f.write(CABECERA_LISTA_VALORES + sanear(menus_por_codigo[leaf.name].contenido_nota))
