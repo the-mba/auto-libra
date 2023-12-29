@@ -5,7 +5,7 @@ import pickle
 from collections import defaultdict
 
 
-"""REVISAR: Obsidian mueve las notas que abro a la raiz, como le digo a obsidian que esa nota va en esa carpeta? Probar a crear una nota en una carpeta desde obsidian y ver que ocurre en el archivo md de la nota
+"""-REVISAR: Obsidian mueve las notas que abro a la raiz, como le digo a obsidian que esa nota va en esa carpeta? Probar a crear una nota en una carpeta desde obsidian y ver que ocurre en el archivo md de la nota
 RESPUESTA NEGATIVA: Obsidian crea las notas en una estructura de subcarpetas, igual que yo. No entiendo porque algunas de las notas acaban moviendose a la raiz"""
 
 
